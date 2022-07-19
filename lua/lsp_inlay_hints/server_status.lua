@@ -1,0 +1,18 @@
+--
+-- local M = {}
+--
+-- function M.handler(_, result)
+--   if result.quiescent and not M.ran_once then
+--     if config.options.tools.autoSetHints then
+--       require("user.lsp.inlay_hints").inlay_hints()
+--       inlay.set_inlay_hints()
+--       inlay.setup_autocmd()
+--     end
+--     if config.options.tools.on_initialized then
+--       config.options.tools.on_initialized(result)
+--     end
+--     M.ran_once = true
+--   end
+-- end
+--
+-- return M
